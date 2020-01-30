@@ -10,8 +10,8 @@ const app = express();
 const server = http.Server(app);
 
 setupWebSocket(server);
-
-mongoose.connect('mongodb+srv://Raian:debnathlinda448@cluster0-bm9sb.mongodb.net/test?retryWrites=true&w=majority', { 
+ //Name and Password of your mongodb account
+mongoose.connect('mongodb+srv://NAMEPASSWORD@cluster0-bm9sb.mongodb.net/test?retryWrites=true&w=majority', { 
     useNewUrlParser: true, 
     useUnifiedTopology: true,
 });
