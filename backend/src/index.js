@@ -20,19 +20,4 @@ app.use(cors())
 app.use(express.json());
 app.use(routes);
 
-
-
-// Métodos HTTP : get, post, put, delete\
-// get: pega informação
-// post: cria informação
-// put: altera informação
-// delete: deleta informação
-
-// Tipos de parâmentos:
-// Query Params: request.query (Filtros, ordenação, paginação, ...)
-// Route Params: request.params (Indentificar um recuros na alteração ou remoção)
-// Body: request.body (Dados para criação ou alteração de um registo)
-
-// MongoDB (Não-relacional)
-
- server.listen(3333);
+server.listen(3333);
